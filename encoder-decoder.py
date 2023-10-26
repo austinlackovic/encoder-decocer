@@ -1,5 +1,5 @@
 # Author: Austin Lackovic 
-# my partner is Jacob Albert
+# my partner is Liam Bozarth
 def encode(password):
     password_encoded = []
     for letter in password:

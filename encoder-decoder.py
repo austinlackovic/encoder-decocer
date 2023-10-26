@@ -9,6 +9,11 @@ def encode(password):
     password_encoded = ''.join(password_encoded)
     return password_encoded
 
+def decode(password):
+    new_password = ""
+    for num in password:
+        new_password -+ str(int(num)+3)
+    return new_password
 
 if __name__ == '__main__':
     while True:
